@@ -368,3 +368,7 @@ def Training(data_path,label_path,batch,scdulr='',lr=1e-3,depth=10,epoch=100):
     print("Training complete")
 
     return average_f1
+
+
+data_path='../figure_7x11/r_top=3.0,r_bottom=0.02/(7, 11)/'
+F1=Training(data_path,data_path,batch=16,scdulr='Cosine',lr=1e-3,depth=5,epoch=200)#
