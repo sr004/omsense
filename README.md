@@ -18,5 +18,20 @@ Inference code is provided in "CG_CNN_inference.py", the docker command above us
 
 We also provide the pre-trained models for OMSense "model_5.pth" and velostat baseline "velostat_model_5.pth".
 
+#Simulation and real-world data Data
+
+We also provide the simulation and real-world data used for this work for OMSense in "../figure_7x11", we simulate data for multiple configurations based on the resistance of conductors used in manufacturing. We use simulation data in "../figure_7x11/r_top=3.0,r_bottom=0.02/" data for training our model .
+
+The real-world data used for testing for both OMSense and Velostat baseline can be found in "../figure_7x11/realworld_data2"
+
+
+
+## Hardware Requirements
+  2 GB RAM and 4GB of hard disk space.
+
+## Software Dependencies
+• Ubuntu-20.04
+• Docker-27.2.0
+• Conda
 
 
