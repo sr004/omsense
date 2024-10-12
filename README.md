@@ -34,4 +34,6 @@ The real-world data used for testing for both OMSense and Velostat baseline can 
 • Docker-27.2.0
 • Conda
 
+# For further questions
+contact: srohal@ucmerced.edu
 
