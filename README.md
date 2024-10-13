@@ -27,7 +27,11 @@ We also provide the pre-trained models for OMSense "model_5.pth" and velostat ba
 
 #Simulation and real-world data Data
 
-We also provide the simulation and real-world data used for this work for OMSense in "../figure_7x11", we simulate data for multiple configurations based on the resistance of conductors used in manufacturing. We use simulation data in "../figure_7x11/r_top=3.0,r_bottom=0.02/" data for training our model .
+We also provide the simulation and real-world data used for this work for OMSense in "../figure_7x11", we simulate data for multiple configurations based on the resistance of conductors used in manufacturing. 
+
+The simulation dataset for different configurations is organized based on conductor resistance between two consecutive sensors in the matrix. "r_top" represents resistance value of the top conductor, "r_bottom" represents resistance of bottom conductor in ohm.   
+
+We use simulation data in "../figure_7x11/r_top=3.0,r_bottom=0.02/" data for training our model.
 
 The real-world data used for testing for both OMSense and Velostat baseline can be found in "../figure_7x11/realworld_data2"
 
