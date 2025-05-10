@@ -25,7 +25,7 @@ Inference code is provided in "CG_CNN_inference.py", the docker command above us
 
 We also provide the pre-trained models for OMSense "model_5.pth" and velostat baseline "velostat_model_5.pth".
 
-#Simulation and real-world data Data
+# Simulation and real-world data Data
 
 We also provide the simulation and real-world data used for this work for OMSense in "../figure_7x11", we simulate data for multiple configurations based on the resistance of conductors used in manufacturing. 
 
